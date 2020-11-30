@@ -1,0 +1,9 @@
+.canvasjs-chart-credit
+{
+    visibility: hidden;
+}
+.canvasjs-chart-canvas
+{
+    user-select: none;
+    margin-left:150px;
+}

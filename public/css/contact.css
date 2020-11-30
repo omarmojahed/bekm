@@ -1,0 +1,40 @@
+.row{
+    border-radius: 5px;
+   
+    margin-top: 50px;
+    width: 1040PX;
+    height: 600PX;
+    direction: rtl;
+    font-size: 16px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    border: 2px solid #41aba1;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 30px;
+    direction: rtl;
+} 
+input[type=submit] {
+    background-color:#5aa09a ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+   float: right;
+
+ }
+ 
+.column {
+   
+    margin-bottom: 6px;
+    padding: 45px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
